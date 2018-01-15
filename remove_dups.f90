@@ -11,6 +11,7 @@ program remove_dups
     do i=2,size(example)
         ! if the number already exist in res check next
         if (any( res == example(i) )) cycle
+        ! No match found so add it to the output
         k = k + 1
         res(k) = example(i)
     end do
