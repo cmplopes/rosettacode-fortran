@@ -7,6 +7,7 @@ program remove_dups
 
     example = [1, 2, 3, 2, 2, 4, 5, 5, 4, 6, 6, 5]
     k = 1
+    res = 0
     res(1) = example(1)
     do i=2,size(example)
         ! if the number already exist in res check next
